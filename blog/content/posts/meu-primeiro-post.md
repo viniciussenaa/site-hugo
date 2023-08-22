@@ -1,5 +1,5 @@
 +++
-title = "Meu Primeiro Post: Minha Jornada Rumo a DevOps e Cloud"
+title = "Minha Jornada Rumo a DevOps e Cloud"
 date = "2023-08-22"
 tags = ["DevOps", "Cloud", "Tecnologia", "Aprendizado"]
 +++
