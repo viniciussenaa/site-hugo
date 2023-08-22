@@ -1,0 +1,68 @@
+baseurl = "http://www.example.com"
+title = "Vinicius Sena"
+theme = "hugo-coder"
+languagecode = "pt-br"
+defaultcontentlanguage = "pt-br"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Vinícius Sena"
+  info = "DevOps/SRE and Open Source Enthusiast"
+  description = "Vinicius Sena personal website"
+  keywords = "blog,developer,personal"
+  avatarURL = "images/avatar.jpg"
+
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/viniciussenaa/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/vinicius-sena-282b875b/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/_osena/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Sobre"
+  weight = 2
+  url = "sobre/"
